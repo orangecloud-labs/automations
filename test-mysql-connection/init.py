@@ -1,9 +1,9 @@
 import mysql.connector
 
 config = {
-  'user': 'mybinuser',
-  'password': 'swiss007',
-  'host': 'localhost',
+  'user': 'USER',
+  'password': 'PASSWORD',
+  'host': 'HOST',
   'raise_on_warnings': True,
 }
 
