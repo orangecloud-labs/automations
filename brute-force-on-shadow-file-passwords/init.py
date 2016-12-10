@@ -23,7 +23,7 @@ def test(salt, hash, username):
 
 with open("/etc/shadow", "r") as shadow:
 	for line in shadow:
-		pattern = re.compile('([a-zA-Z0-9_-]+):(\$6\$[a-zA-Z0-9_\-\/\.]+\$)?(.*)(:.*){7}')
+		pattern = re.compile('([a-zA-Z0-9_-]+):(\$\d\$[a-zA-Z0-9_\-\/\.]+\$)?(.*)(:.*){7}')
 		matched = pattern.match(line)
 		username = matched.group(1)
 		if username not in skip_user:
