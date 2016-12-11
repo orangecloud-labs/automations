@@ -1,3 +1,6 @@
+
+## This script purpose is to be used in educational purposes only!
+
 list.txt file represents a short dictionary populated by generator or taken from wherever 
 (FYI: look into rainbow tables - very useful)
 
