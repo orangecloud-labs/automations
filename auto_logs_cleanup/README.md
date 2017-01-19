@@ -5,3 +5,7 @@ Main idea is to have variables that define minimum allowed free space as well as
 Note that this method covers logs naming convention where unique identificatior is %Y%m%d%H
 /var/log/nginx/2014071017.log
 /var/log/nginx/access.log.2014071017
+
+Cron
+Trigger every minute
+*/1 * * * * root python /log-removal.py
